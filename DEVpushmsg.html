@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>推送设置 NEW</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="js/stylish/stylish-select.css" />
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<!-- 推送设置 New!! -->
+<div class="popup_mask mod-mask-showed2" style="display:none"></div>
+<div class="popup mod-showed2" style="display:none">
+    <i class="fix_middle"></i>
+    <div class="inner" style="width: 580px;">
+    	<div class="pop_title"><i class="close">&#xe612;</i><span><!--Modal Title-->推送设置</span></div>
+    	<div class="pop_content">
+    		<!--Modal Content-->
+			<div class="myPush_wrap mp_hasPadding">
+				<ul class="myPush_tab clearfix">
+					<li class="iTab cur">邮箱推送</li>
+					<li class="iTab ">短信推送</li>
+				</ul>
+				<div id="myPush_wrap_tabbox">
+					<div class="myPush_cont">
+						<!--EACH BLOCK-->
+						<div class="myPush_block mpb_hasPadding">
+							<div class="myPush_block_cont mpbc_hasPadding">
+								<table class="pushMailBlock" cellpadding="0" cellspacing="0">
+									<tr>
+										<td class="pstext_w">
+											<span class="pstext">推送邮箱</span>
+										</td>
+										<td class="psearch_w">
+											<input type="text" class="psearch">
+										</td>
+										<td class="pbutton_w">
+											<input type="text" class="custom_bt pbutton" value="确定">
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<!--EACH BLOCK-->
+						<div class="myPush_block mpb_hasPadding">
+							<h2 class="myPush_block_title">预警推送（推送所有负面舆情）</h2>
+							<div class="myPush_block_cont mpbc_hasPadding">
+								<div>
+									<input class="mpCkb" type="checkbox"><label>开启 <span>（将同时开启“邮箱+短信”推送，请至短信推送填写手机号码）</span></label>
+								</div>
+								<div>
+									<input class="mpCkb" type="checkbox"><label>关闭 </label>
+								</div>
+							</div>
+						</div>
+						<!--EACH BLOCK-->
+						<div class="myPush_block mpb_hasPadding">
+							<h2 class="myPush_block_title">舆情列表推送</h2>
+							<div class="myPush_block_cont mpbc_hasPadding">
+								<input class="mpCkb" type="checkbox"><label>开启</label><input class="mpCkb" checked type="checkbox"><label>关闭</label>
+								<p style="text-indent: 18px; font-size: 14px;color: #868686;line-height: 32px;">每晚12时将当日舆情列表发送至该邮箱</p>
+							</div>
+						</div>
+						<!--EACH BLOCK-->
+						<div class="myPush_block">
+							<h2 class="myPush_block_title">报告推送</h2>
+							<div class="myPush_block_cont mpbc_hasPadding">
+								<input class="mpCkb" type="checkbox"><label>开启</label><input class="mpCkb" checked type="checkbox"><label>关闭</label>
+								<p style="text-indent: 18px; font-size: 14px;color: #868686;line-height: 32px;">每周日晚12时将上周公司舆情报告发送至该邮箱</p>
+							</div>
+						</div>
+					</div>
+					<div class="myPush_cont hide">
+						<!--EACH BLOCK-->
+						<div class="myPush_block mpb_hasPadding">
+							<div class="myPush_block_cont">
+								<table class="pushMailBlock" cellpadding="0" cellspacing="0">
+									<tr>
+										<td class="pstext_w" style="padding-bottom: 10px;">
+											<span class="pstext">推送手机</span>
+										</td>
+										<td class="psearch_w" style="padding-bottom: 10px;">
+											<input type="text" class="psearch">
+										</td>
+										<td class="pbutton_w" style="padding-bottom: 10px;">
+											<input type="text" class="custom_bt pbutton" value="获取验证码">
+										</td>
+									</tr>
+									<tr>
+										<td class="pstext_w">
+											<span class="pstext">填写验证码</span>
+										</td>
+										<td class="psearch_w">
+											<input type="text" class="psearch">
+										</td>
+										<td class="pbutton_w">
+											<input type="text" class="custom_bt pbutton" value="确定">
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<!--EACH BLOCK-->
+						<div class="myPush_block mpb_hasPadding">
+							<h2 class="myPush_block_title">预警推送（推送所有负面舆情）</h2>
+							<div class="myPush_block_cont mpbc_hasPadding">
+								<p style="text-indent: 18px; font-size: 14px;color: #868686;line-height: 32px;">请至邮箱推送开启此功能</p>
+							</div>
+						</div>
+						<!--EACH BLOCK-->
+						<div class="myPush_block">
+							<h2 class="myPush_block_title">报告推送</h2>
+							<div class="myPush_block_cont mpbc_hasPadding">
+								<input class="mpCkb" type="checkbox"><label>开启</label><input class="mpCkb" checked type="checkbox"><label>关闭</label>
+								<p style="text-indent: 18px; font-size: 14px;color: #868686;line-height: 32px;">每周日晚12时将上周公司舆情报告发送至该邮箱</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tc" style="padding: 30px;">
+					<input class="custom_bt" value="确定" type="button">
+				</div>
+			</div>
+    	</div>
+    </div>
+</div>
+
+
+<!-- 添加减少股东 -->
+<div class="popup_mask mod-mask-showed2" style="display:none"></div>
+<div class="popup pop-0 mod-showed2" style="display:none">
+    <i class="fix_middle"></i>
+    <div class="inner" style="width: 500px;">
+    	<div class="pop_title"><i class="close">&#xe612;</i><span><!--Modal Title-->十大股东</span></div>
+    	<div class="pop_content">
+    		<!--Modal Content-->
+			<div class="ten_major_shareholders_modal clearfix">
+				<div class="tms_each"><input type="checkbox"><label for="">用户一</label></div>
+				<div class="tms_each"><input type="checkbox"><label for="">用户二</label></div>
+				<div class="tms_each"><input type="checkbox"><label for="">用户三</label></div>
+				<div class="tms_each"><input type="checkbox"><label for="">用户四</label></div>
+				<div class="tms_each"><input type="checkbox"><label for="">用户五</label></div>
+				<div class="tms_each"><input type="checkbox"><label for="">用户六</label></div>
+				<div class="tms_each"><input type="checkbox"><label for="">用户七</label></div>
+				<div class="tms_each"><input type="checkbox"><label for="">用户八</label></div>
+				<div class="tms_each"><input type="checkbox"><label for="">用户九</label></div>
+				<div class="tms_each"><input type="checkbox"><label for="">用户十</label></div>
+			</div>
+    	</div>
+    </div>
+</div>
+
+
+
+<!-- 确认注销弹窗 -->
+<div class="popup_mask mod-mask-showed" style="display:none"></div>
+<div class="popup" style="display:none">
+    <i class="fix_middle"></i>
+    <div class="inner" style="width: 500px;">
+    	<div class="pop_title"><i class="close">&#xe612;</i><span><!--Modal Title-->注意</span></div>
+    	<div class="pop_content">
+    		<!--Modal Content-->
+			<div id="conf_logout">
+				确认注销并且退出？
+				<div class="tc">
+					<input class="custom_bt" value="确定" onClick="window.location='login.html" type="button">
+				</div>
+			</div>
+    	</div>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
