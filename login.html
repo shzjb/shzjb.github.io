@@ -269,24 +269,24 @@ $(document).ready(function(){
 	
 	
 	//加载背景图片
-	var img = {};
-	var imgCache;
-	img = {src:"images/lg_bg.jpg"};
-	imgCache = $("<img>");
-	imgCache.attr({
-		"src":img.src,
-		"id":"loginBg"
-	}).css({
-		"opacity":"0",
-		"z-index":"-1"
-	}).on("load", function(e) {
-		var $body = $body || $("body");
-		$body.append(imgCache);
-		$(document.getElementById("loginBg")).imageScale({
-			fadeInDuration:800
-		})
-		
-	});
+//	var img = {};
+//	var imgCache;
+//	img = {src:"images/lg_bg.jpg"};
+//	imgCache = $("<img>");
+//	imgCache.attr({
+//		"src":img.src,
+//		"id":"loginBg"
+//	}).css({
+//		"opacity":"0",
+//		"z-index":"-1"
+//	}).on("load", function(e) {
+//		var $body = $body || $("body");
+//		$body.append(imgCache);
+//		$(document.getElementById("loginBg")).imageScale({
+//			fadeInDuration:800
+//		})
+//		
+//	});
 });
 </script>
 </html>
